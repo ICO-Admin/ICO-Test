@@ -6,7 +6,7 @@ const app = express();
 const admin = require('./server/routes/admin');
 
 // utilisation d'express
-app.use(express.static(path.join(__dirname,'dist')));
+app.use(express.static(path.join(__dirname,'dist/ICO-Admin')));
 
 app.use('/admin', admin);
 
@@ -18,7 +18,7 @@ app.get('*', (req, res)=>{
 
 // port de prod, ou 4600 si local
 const port = process.env.PORT || 4600;
-app.listen(port, (req,res)=> {
+app.listen(port, ()=>{
   console.log(`Running on port ${port}`);
 });
 
