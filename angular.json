@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ICO-Admin"
+    }
+  },
+  "defaultProject": "ICO-Admin",
+  "cli": {
+    "analytics": "88822ff6-4937-4d92-a353-6c73244bd11a"
+  }
 }
