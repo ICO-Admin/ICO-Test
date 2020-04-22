@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ICO-Admin": {
+    "ico-admin": {
       "projectType": "application",
       "schematics": {},
       "root": "",
