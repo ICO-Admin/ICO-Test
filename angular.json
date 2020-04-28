@@ -62,30 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-<<<<<<< HEAD
-            "browserTarget": "ico-Admin:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "ico-Admin:build:production"
-=======
             "browserTarget": "ico-admin:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "ico-admin:build:production"
->>>>>>> 0fedf4a2a0db3b595b51c24ab164bd62fb54f33e
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
-            "browserTarget": "ico-Admin:build"
-=======
             "browserTarget": "ico-admin:build"
->>>>>>> 0fedf4a2a0db3b595b51c24ab164bd62fb54f33e
           }
         },
         "test": {
@@ -122,32 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-<<<<<<< HEAD
-            "devServerTarget": "ico-Admin:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "ico-Admin:serve:production"
-=======
             "devServerTarget": "ico-admin:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "ico-admin:serve:production"
->>>>>>> 0fedf4a2a0db3b595b51c24ab164bd62fb54f33e
             }
           }
         }
       }
-<<<<<<< HEAD
-    }
-  },
-  "defaultProject": "ico-Admin",
-  "cli": {
-    "analytics": "88822ff6-4937-4d92-a353-6c73244bd11a"
-  }
-=======
     }},
   "defaultProject": "ico-admin"
->>>>>>> 0fedf4a2a0db3b595b51c24ab164bd62fb54f33e
 }
