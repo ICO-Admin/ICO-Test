@@ -2,9 +2,7 @@ TEST DE PULL REQUEST
 TEST branch 5
 TEST branch 6
 
-Test : est-ce que j'ai le droit de modifier apres le rename
-
-
+Test de push apres le rename
 
 # ICOAdmin
 
